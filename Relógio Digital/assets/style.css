@@ -26,7 +26,6 @@ body {
 }
 
 .relogio div {
-    background-color: aliceblue;
     height: 160px;
     width: 120px;
     display: flex;
@@ -52,8 +51,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* border-bottom: 3px solid rgba(130, 280, 230, .3); */
 
     color: white;
     font-weight: 700;

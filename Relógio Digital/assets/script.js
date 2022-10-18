@@ -2,10 +2,6 @@ const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 
-// const dia = document.getElementById('dia');
-// const mes = document.getElementById('mes');
-// const ano = document.getElementById('ano');
-
 const hoje = document.getElementById('hoje');
 
 const relogio = setInterval(function time() {
@@ -54,5 +50,4 @@ const relogio = setInterval(function time() {
     }
 
     hoje.textContent = day + ' de ' + month + ' de ' + year;
-
 })
